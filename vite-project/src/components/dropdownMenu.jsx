@@ -14,9 +14,9 @@ const DropdownMenu = () => {
                 ☰
             </p>
             <div className={`dropdown-container ${isClick ? 'open' : ''}`}>
-                <a>Home</a>
-                <a>category</a>
-                <a>Contact</a>
+                <a className='enlace'>Home</a>
+                <a className='enlace'>category</a>
+                <a className='enlace'>Contact</a>
             </div>
         </div>
     );

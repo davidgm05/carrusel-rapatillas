@@ -2,6 +2,7 @@
 import './App.css'
 import DropdownMenu from './components/dropdownMenu'
 import FullPageCarousel from './pages/FullPageCarousel'
+import ImgPageCarousel from './pages/imgPageCarousel'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <DropdownMenu/>
      <FullPageCarousel />
+     <ImgPageCarousel/>
     </>
   )
 }
